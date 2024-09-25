@@ -67,6 +67,11 @@ header {
     font-size: 0;
 }
 
+/* remove bottom border of navbar so it aligns with image */
+#nav {
+    margin: 0;
+}
+
 /* re-enable font-size. see .menu-container above */
 #nav li {
     font-size: 14px;
@@ -106,4 +111,12 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/* ----------------------------------------HOVER>CSS */
+/* :before is the initial state */
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
+
 }
