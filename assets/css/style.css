@@ -364,6 +364,7 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------MEDIA QUERY */
+/* using min-width for mobile-first development */
 @media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
